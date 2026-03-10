@@ -1,333 +1,423 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" data-theme="dark">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keyword" content="dasturchi, frontend dasturchi, frontend developer, developer, sunnatilo quddusov, quddusov, sunnatillo, sunnatilloxon, dasturchi, " />
+    <meta name="description" content="Sunnatillo Quddusov frontend junior developer." />
+    <meta name="author" content="sunnatillo quddusov" />
     <title>Sunnatillo quddusov · Frontend developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <!-- <link rel="stylesheet" href="https://lottieflow.com/download/social-networks-16-11"> -->
 
     <!-- <script src='https://cdn.jotfor.ms/agent/embedjs/019bfef6dd1e7f89821bbded7eff9198f31d/embed.js'></script> -->
 
-
     <link
-        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <link rel="icon" href="49d0d089-a9ae-45f5-b997-4d7a2b367a87.png" />
 
-</head>
-<link rel="icon" href="49d0d089-a9ae-45f5-b997-4d7a2b367a87.png">
-
-<body>
-
+  <body>
     <nav>
-        <div class="nav-logo">Sunnatillo<span>.</span>web</div>
-        <ul class="nav-links">
-               <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><button id="theme-toggle">☀️ Light</button></li>
-        </ul>
-        <button class="hamburger" id="hamburger" aria-label="Menu">
-            <span></span><span></span><span></span>
-        </button>
+      <div class="nav-logo">Sunnatillo<span>.</span>web</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle">☀️ Light</button></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
     </nav>
 
     <div class="mobile-menu" id="mobile-menu">
-        <a href="#about" class="mobile-link">About</a>
-        <a href="#projects" class="mobile-link">Projects</a>
-        <a href="#experience" class="mobile-link">Experience</a>
-        <a href="#contact" class="mobile-link">Contact</a>
-        <button id="theme-toggle-mobile" style="background:var(--surface); border:1px solid var(--border); color:var(--text); padding:0.8rem 1.5rem; border-radius:8px; margin-top:1rem;">☀️Light Mode</button>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#experience" class="mobile-link">Experience</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+      <button
+        id="theme-toggle-mobile"
+        style="
+          background: var(--surface);
+          border: 1px solid var(--border);
+          color: var(--text);
+          padding: 0.8rem 1.5rem;
+          border-radius: 8px;
+          margin-top: 1rem;
+        "
+      >
+        ☀️Light Mode
+      </button>
     </div>
 
     <section id="hero">
-        <div class="hero-bg">
-            <div class="hero-grid"></div>
-            <div class="hero-orb hero-orb-1"></div>
-            <div class="hero-orb hero-orb-2"></div>
-        </div>
+      <div class="hero-bg">
+        <div class="hero-grid"></div>
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+      </div>
 
-        <!-- <img src="download (6).png" alt="" class="immgg"> -->
-      
-        <div class="dumaloq"><img src="636cfd57-5751-4f08-9742-b80a79f9a2b4.png" alt=""></div>
-        <!-- <div class="dumaloq">  <i class="icon1 fa-solid fa-code"></i> </div> -->
+      <!-- <img src="download (6).png" alt="" class="immgg"> -->
 
-        <div class="hero-content">
-            <div class="hero-tag">Available for opportunities</div>
-            <h1 class="hero-name">Hi, I'm <span class="accent">Sunnatillo Quddusov</span></h1>
-            <div class="hero-typing">
-                <span id="typed-text"></span><span class="cursor"></span>
-            </div>
-            <p class="hero-desc">I build fast, accessible, and visually refined digital products. Turning complex
-                problems into elegant interfaces is my craft.</p>
-            <div class="hero-cta">
-                <a href="#projects" class="btn btn-primary">View Work ↓</a>
-                <a href="#contact" class="btn btn-outline">Get in Touch</a>
-            </div>
-        </div>
+      <div class="dumaloq">
+        <img src="636cfd57-5751-4f08-9742-b80a79f9a2b4.png" alt="" />
+      </div>
+      <!-- <div class="dumaloq">  <i class="icon1 fa-solid fa-code"></i> </div> -->
 
-        <div class="hero-scroll">
-            <div class="scroll-line"></div>
-            scroll
+      <div class="hero-content">
+        <div class="hero-tag">Available for opportunities</div>
+        <h1 class="hero-name">
+          Hi, I'm <span class="accent">Sunnatillo Quddusov</span>
+        </h1>
+        <div class="hero-typing">
+          <span id="typed-text"></span><span class="cursor"></span>
         </div>
+        <p class="hero-desc">
+          I build fast, accessible, and visually refined digital products.
+          Turning complex problems into elegant interfaces is my craft.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Work ↓</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <div class="scroll-line"></div>
+        scroll
+      </div>
     </section>
 
     <section id="about">
-        <div class="fade-in">
-            <div class="section-label">01 — About</div>
-            <h2 class="section-title">Who I <em>Am</em></h2>
+      <div class="fade-in">
+        <div class="section-label">01 — About</div>
+        <h2 class="section-title">Who I <em>Am</em></h2>
+      </div>
+      <div class="about-grid fade-in">
+        <div>
+          <div class="about-bio">
+            <p>
+              I am a <strong>frontend developer </strong>specializing in
+              creating clean, efficient, and user-centric websites.
+            </p>
+            <p>
+              I believe in the power of simple solutions to complex problems. My
+              projects are diverse and currently receiving extensive user
+              reviews.
+            </p>
+          </div>
+          <a href="" class="about-download" download> ↓ To continue </a>
         </div>
-        <div class="about-grid fade-in">
-            <div>
-                <div class="about-bio">
-                    <p>I am a <strong>frontend developer </strong>specializing in creating clean, efficient, and
-                        user-centric websites.</p>
-                    <p>I believe in the power of simple solutions to complex problems. My projects are diverse and
-                        currently receiving extensive user reviews.</p>
-                </div>
-                <a href="" class="about-download" download>
-                    ↓ To continue
-                </a>
-            </div>
-            <div class="tech-grid" id="tech-grid"></div>
-        </div>
+        <div class="tech-grid" id="tech-grid"></div>
+      </div>
     </section>
 
     <section id="projects">
-        <div class="fade-in">
-            <div class="section-label">02 — Work</div>
-            <h2 class="section-title">Selected <em>Projects</em></h2>
-        </div>
-        <div class="projects-grid" id="projects-grid"></div>
+      <div class="fade-in">
+        <div class="section-label">02 — Work</div>
+        <h2 class="section-title">Selected <em>Projects</em></h2>
+      </div>
+      <div class="projects-grid" id="projects-grid"></div>
     </section>
 
     <section id="experience">
-        <div class="fade-in">
-            <div class="section-label">03 — Career</div>
-            <h2 class="section-title">Where I've <em>Worked</em></h2>
-        </div>
-        <div class="timeline" id="timeline"></div>
+      <div class="fade-in">
+        <div class="section-label">03 — Career</div>
+        <h2 class="section-title">Where I've <em>Worked</em></h2>
+      </div>
+      <div class="timeline" id="timeline"></div>
     </section>
 
     <section id="contact">
-        <div class="fade-in">
-            <div class="section-label">04 — Contact</div>
-            <h2 class="section-title">Let's <em>Connect</em></h2>
-        </div>
-        <div class="contact-grid fade-in">
-            <div class="contact-card">
-                <div class="contact-info">
-                    <h3>Start a conversation</h3>
-                    <p>Whether you have a specific project in mind or just want to say hi, feel free to reach out. I
-                        typically respond within 24 hours.</p>
-                    <div class="contact-links-grid">
-                        <a href="mailto:alex@example.com" class="contact-link-item">
-                            <span class="contact-link-icon"></span>
-                            <span class="contact-link-label">Email</span>
-                            <span class="contact-link-value">sunqud90@gmail.com</span>
-                        </a>
-                        <!-- <a href="#" class="contact-link-item">
+      <div class="fade-in">
+        <div class="section-label">04 — Contact</div>
+        <h2 class="section-title">Let's <em>Connect</em></h2>
+      </div>
+      <div class="contact-grid fade-in">
+        <div class="contact-card">
+          <div class="contact-info">
+            <h3>Start a conversation</h3>
+            <p>
+              Whether you have a specific project in mind or just want to say
+              hi, feel free to reach out. I typically respond within 24 hours.
+            </p>
+            <div class="contact-links-grid">
+              <a href="mailto:alex@example.com" class="contact-link-item">
+                <span class="contact-link-icon"></span>
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-value">sunqud90@gmail.com</span>
+              </a>
+              <!-- <a href="#" class="contact-link-item">
                             <span class="contact-link-icon">🐙</span>
                             <span class="contact-link-label">GitHub</span>
                             <span class="contact-link-value">@sunnatilloquddusov99-cloud</span>
                         </a> -->
-                        <a href="#" class="contact-link-item">
-                            <span class="contact-link-icon"> </span>
-                            <span class="contact-link-label">instagram</span>
-                            <span class="contact-link-value">sunnatillo_coder</span>
-                        </a>
-                        <a href="#" class="contact-link-item">
-                            <span class="contact-link-icon"></span>
-                            <span class="contact-link-label">teligram</span>
-                            <span class="contact-link-value">@sunnatillo.coder</span>
-                        </a>
-                    </div>
-                </div>
+              <a href="#" class="contact-link-item">
+                <span class="contact-link-icon"> </span>
+                <span class="contact-link-label">instagram</span>
+                <span class="contact-link-value">sunnatillo_coder</span>
+              </a>
+              <a href="#" class="contact-link-item">
+                <span class="contact-link-icon"></span>
+                <span class="contact-link-label">teligram</span>
+                <span class="contact-link-value">@sunnatillo.coder</span>
+              </a>
             </div>
-
-            <form id="tgForm" class="contact-form" action="3b0cfce1-b67b-4404-858d-edcd444673f2">
-                <div class="form-group">
-                    <label>Your Name</label>
-                    <input id="name" type="text" placeholder="Sunnatillo" required />
-                </div>
-                <div class="form-group">
-                    <label>Your Email</label>
-                    <input id="email" type="email" placeholder="sunnatillo@example.com" required />
-                </div>
-                <div class="form-group">
-                    <label>message</label>
-                    <textarea id="message" placeholder="“Submit your collaboration proposals or other inquiries.”"
-                        rows="5"></textarea>
-                </div>
-                <button id="" type="submit" class="form-submit">
-                    Send Message 🚀
-                </button>
-            </form>
+          </div>
         </div>
+
+        <form
+          id="tgForm"
+          class="contact-form"
+          action="3b0cfce1-b67b-4404-858d-edcd444673f2"
+        >
+          <div class="form-group">
+            <label>Your Name</label>
+            <input id="name" type="text" placeholder="Sunnatillo" required />
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="sunnatillo@example.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label>message</label>
+            <textarea
+              id="message"
+              placeholder="“Submit your collaboration proposals or other inquiries.”"
+              rows="5"
+            ></textarea>
+          </div>
+          <button id="" type="submit" class="form-submit">
+            Send Message 🚀
+          </button>
+        </form>
+      </div>
     </section>
 
     <footer>
-        <span>© 2026 Sunnatillo Quddusov. frontend developer</span>
-        <span>Sunnatillo<span style="color:var(--accent)">.</span>web</span>
+      <span>© 2026 Sunnatillo Quddusov. frontend developer</span>
+      <span>Sunnatillo<span style="color: var(--accent)">.</span>web</span>
     </footer>
 
     <script>
-        /* ── DATA ── */
-        const TECH_STACK = [
-            { icon: '<i class="fa-brands fa-html5"></i>', name: 'HTML' }, { icon: '<i class="fa-brands fa-css3-alt"></i>', name: 'CSS' },
-            { icon: '<i class="fa-brands fa-sass"></i>', name: 'SASS' }, ,
-            { icon: '<i class="fa-brands fa-git-alt"></i>', name: 'Git' }, { icon: '<i class="fa-brands fa-github"></i>', name: 'GitHub' },
-            { icon: '<i class="fa-brands fa-js"></i>', name: 'JS' }, ,
-        ];
+      /* ── DATA ── */
+      const TECH_STACK = [
+        { icon: '<i class="fa-brands fa-html5"></i>', name: "HTML" },
+        { icon: '<i class="fa-brands fa-css3-alt"></i>', name: "CSS" },
+        { icon: '<i class="fa-brands fa-sass"></i>', name: "SASS" },
+        ,
+        { icon: '<i class="fa-brands fa-git-alt"></i>', name: "Git" },
+        { icon: '<i class="fa-brands fa-github"></i>', name: "GitHub" },
+        { icon: '<i class="fa-brands fa-js"></i>', name: "JS" },
+        ,
+      ];
 
-        const PROJECTS = [
-            { title: 'AkademPro', desc: 'You can learn programming quickly and easily on this platform, where you can learn by watching various games and videos with professional instructors..', tags: ["not yet uploaded to the internet"], c1: '#1a1a4e', c2: '#0055ff', live: '#', github: '#' },
+      const PROJECTS = [
+        {
+          title: "AkademPro",
+          desc: "You can learn programming quickly and easily on this platform, where you can learn by watching various games and videos with professional instructors..",
+          tags: ["not yet uploaded to the internet"],
+          c1: "#1a1a4e",
+          c2: "#0055ff",
+          live: "#",
+          github: "#",
+        },
 
-            { title: 'Multifull', desc: 'You can watch cartoons and movies through this platform..', tags: ["not yet uploaded to the internet"], c1: '#0a2e1a', c2: '#00bb44', live: '#', github: '#' },
+        {
+          title: "Multifull",
+          desc: "You can watch cartoons and movies through this platform..",
+          tags: ["not yet uploaded to the internet"],
+          c1: "#0a2e1a",
+          c2: "#00bb44",
+          live: "#",
+          github: "#",
+        },
 
-            { title: 'AI sound translater', desc: 'converts voice to text and text to voice.', tags: ['not yet uploaded to the internet'], c1: '#2a0a3a', c2: '#aa00ff', live: '#', github: '#' },
+        {
+          title: "AI sound translater",
+          desc: "converts voice to text and text to voice.",
+          tags: ["not yet uploaded to the internet"],
+          c1: "#2a0a3a",
+          c2: "#aa00ff",
+          live: "#",
+          github: "#",
+        },
 
-            { title: 'vernec', desc: 'For all kinds of teachers to test students quickly and easily', tags: ['not yet uploaded to the internet'], c1: '#2a1400', c2: '#ff6600', live: '#', github: '#' }
-        ];
+        {
+          title: "vernec",
+          desc: "For all kinds of teachers to test students quickly and easily",
+          tags: ["not yet uploaded to the internet"],
+          c1: "#2a1400",
+          c2: "#ff6600",
+          live: "#",
+          github: "#",
+        },
+      ];
 
-        const EXPERIENCE = [
-            { company: '', role: 'Junior frontend developer', date: 'okt 2025 – Present', achievements: ['Reduced build pipeline latency by 40%', 'Led billing migration to Stripe'] }
-        ];
+      const EXPERIENCE = [
+        {
+          company: "",
+          role: "Junior frontend developer",
+          date: "okt 2025 – Present",
+          achievements: [
+            "Reduced build pipeline latency by 40%",
+            "Led billing migration to Stripe",
+          ],
+        },
+      ];
 
-        /* ── TYPING EFFECT ── */
-        const ROLES = ['Frontend Developer', 'Interactive UI/UX designer ', 'responsive web designer', 'AI chatbot creator'];
-        let roleIdx = 0, charIdx = 0, deleting = false;
-        const typedEl = document.getElementById('typed-text');
+      /* ── TYPING EFFECT ── */
+      const ROLES = [
+        "Frontend Developer",
+        "Interactive UI/UX designer ",
+        "responsive web designer",
+        "AI chatbot creator",
+      ];
+      let roleIdx = 0,
+        charIdx = 0,
+        deleting = false;
+      const typedEl = document.getElementById("typed-text");
 
-        function type() {
-            const current = ROLES[roleIdx];
-            if (!deleting) {
-                typedEl.textContent = current.slice(0, charIdx + 1);
-                charIdx++;
-                if (charIdx === current.length) { deleting = true; setTimeout(type, 1800); return; }
-            } else {
-                typedEl.textContent = current.slice(0, charIdx - 1);
-                charIdx--;
-                if (charIdx === 0) { deleting = false; roleIdx = (roleIdx + 1) % ROLES.length; }
-            }
-            setTimeout(type, deleting ? 60 : 100);
+      function type() {
+        const current = ROLES[roleIdx];
+        if (!deleting) {
+          typedEl.textContent = current.slice(0, charIdx + 1);
+          charIdx++;
+          if (charIdx === current.length) {
+            deleting = true;
+            setTimeout(type, 1800);
+            return;
+          }
+        } else {
+          typedEl.textContent = current.slice(0, charIdx - 1);
+          charIdx--;
+          if (charIdx === 0) {
+            deleting = false;
+            roleIdx = (roleIdx + 1) % ROLES.length;
+          }
         }
-        type();
+        setTimeout(type, deleting ? 60 : 100);
+      }
+      type();
 
-        /* ── RENDER DATA ── */
-        const techGrid = document.getElementById('tech-grid');
-        TECH_STACK.forEach(t => techGrid.innerHTML += `<div class="tech-item"><div class="tech-icon">${t.icon}</div>${t.name}</div>`);
+      /* ── RENDER DATA ── */
+      const techGrid = document.getElementById("tech-grid");
+      TECH_STACK.forEach(
+        (t) =>
+          (techGrid.innerHTML += `<div class="tech-item"><div class="tech-icon">${t.icon}</div>${t.name}</div>`),
+      );
 
-        const projGrid = document.getElementById('projects-grid');
-        PROJECTS.forEach(p => {
-            const abbr = p.title.split(' ').map(w => w[0]).join('').slice(0, 2);
-            projGrid.innerHTML += `<div class="project-card fade-in">
+      const projGrid = document.getElementById("projects-grid");
+      PROJECTS.forEach((p) => {
+        const abbr = p.title
+          .split(" ")
+          .map((w) => w[0])
+          .join("")
+          .slice(0, 2);
+        projGrid.innerHTML += `<div class="project-card fade-in">
     <div class="project-thumb" style="--c1:${p.c1};--c2:${p.c2}"><div class="project-thumb-inner"></div><div class="project-thumb-pattern"></div><div class="project-thumb-label">${abbr}</div></div>
-    <div class="project-body"><div class="project-title">${p.title}</div><div class="project-desc">${p.desc}</div><div class="project-tags">${p.tags.map(t => `<span class="tag">${t}</span>`).join('')}</div><div class="project-links"><a href="${p.live}" class="project-link primary" target="_blank">Live Demo ↗️</a><a href="${p.github}" class="project-link" target="_blank">GitHub</a></div></div>
+    <div class="project-body"><div class="project-title">${p.title}</div><div class="project-desc">${p.desc}</div><div class="project-tags">${p.tags.map((t) => `<span class="tag">${t}</span>`).join("")}</div><div class="project-links"><a href="${p.live}" class="project-link primary" target="_blank">Live Demo ↗️</a><a href="${p.github}" class="project-link" target="_blank">GitHub</a></div></div>
   </div>`;
-        });
+      });
 
-        const timeline = document.getElementById('timeline');
-        EXPERIENCE.forEach(e => {
-            timeline.innerHTML += `<div class="timeline-item fade-in">
+      const timeline = document.getElementById("timeline");
+      EXPERIENCE.forEach((e) => {
+        timeline.innerHTML += `<div class="timeline-item fade-in">
     <div class="timeline-date">${e.date}</div><div class="timeline-role">${e.role}</div><div class="timeline-company">${e.company}</div>
-    <div class="timeline-achievements">${e.achievements.map(a => `<div class="timeline-achievement">${a}</div>`).join('')}</div>
+    <div class="timeline-achievements">${e.achievements.map((a) => `<div class="timeline-achievement">${a}</div>`).join("")}</div>
   </div>`;
+      });
+
+      /* ── INTERSECTION OBSERVER ── */
+
+      /* ── THEME TOGGLE ── */
+      function toggleTheme() {
+        const html = document.documentElement;
+        const isDark = html.getAttribute("data-theme") === "dark";
+        html.setAttribute("data-theme", isDark ? "light" : "dark");
+        const btn = document.getElementById("theme-toggle");
+        const btnMob = document.getElementById("theme-toggle-mobile");
+        btn.textContent = isDark ? "☽ Dark" : "☀️ Light";
+        btnMob.textContent = isDark ? "☽ Dark Mode" : "☀️ Light Mode";
+      }
+      document
+        .getElementById("theme-toggle")
+        .addEventListener("click", toggleTheme);
+      document
+        .getElementById("theme-toggle-mobile")
+        .addEventListener("click", toggleTheme);
+
+      /* ── MOBILE MENU (YANGILANGAN) ── */
+      const hamburger = document.getElementById("hamburger");
+      const mobileMenu = document.getElementById("mobile-menu");
+      const mobileLinks = document.querySelectorAll(".mobile-link");
+
+      // Ochish va yopish funksiyasi
+      function toggleMenu() {
+        hamburger.classList.toggle("active");
+        mobileMenu.classList.toggle("open");
+      }
+
+      hamburger.addEventListener("click", toggleMenu);
+
+      // Linklar bosilganda menyuni yopish
+      mobileLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          hamburger.classList.remove("active");
+          mobileMenu.classList.remove("open");
+          document.body.style.overflow = "http://127.0.0.1:5000/send-message";
         });
+      });
 
-        /* ── INTERSECTION OBSERVER ── */
+      const form = document.getElementById("form");
+      const submitBtn = form.querySelector('button[type="submit"]');
 
+      form.addEventListener("submit", async (e) => {
+        e.preventDefault();
 
-        /* ── THEME TOGGLE ── */
-        function toggleTheme() {
-            const html = document.documentElement;
-            const isDark = html.getAttribute('data-theme') === 'dark';
-            html.setAttribute('data-theme', isDark ? 'light' : 'dark');
-            const btn = document.getElementById('theme-toggle');
-            const btnMob = document.getElementById('theme-toggle-mobile');
-            btn.textContent = isDark ? '☽ Dark' : '☀️ Light';
-            btnMob.textContent = isDark ? '☽ Dark Mode' : '☀️ Light Mode';
-        }
-        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
-        document.getElementById('theme-toggle-mobile').addEventListener('click', toggleTheme);
+        const formData = new FormData(form);
+        formData.append("access_key", "3b0cfce1-b67b-4404-858d-edcd444673f2");
 
-        /* ── MOBILE MENU (YANGILANGAN) ── */
-        const hamburger = document.getElementById('hamburger');
-        const mobileMenu = document.getElementById('mobile-menu');
-        const mobileLinks = document.querySelectorAll('.mobile-link');
+        const originalText = submitBtn.textContent;
 
-        // Ochish va yopish funksiyasi
-        function toggleMenu() {
-            hamburger.classList.toggle('active');
-            mobileMenu.classList.toggle('open');
+        submitBtn.textContent = "Sending...";
+        submitBtn.disabled = true;
 
-
-        }
-
-        hamburger.addEventListener('click', toggleMenu);
-
-        // Linklar bosilganda menyuni yopish
-        mobileLinks.forEach(link => {
-            link.addEventListener('click', () => {
-                hamburger.classList.remove('active');
-                mobileMenu.classList.remove('open');
-                document.body.style.overflow = 'http://127.0.0.1:5000/send-message';
-            });
-        });
-
-
-
-
-
-
-
-
-
-
-
-        const form = document.getElementById('form');
-const submitBtn = form.querySelector('button[type="submit"]');
-
-form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-
-    const formData = new FormData(form);
-    formData.append("access_key", "3b0cfce1-b67b-4404-858d-edcd444673f2");
-
-    const originalText = submitBtn.textContent;
-
-    submitBtn.textContent = "Sending...";
-    submitBtn.disabled = true;
-
-    try {
-        const response = await fetch("https://api.web3forms.com/submit", {
+        try {
+          const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
-            body: formData
-        });
+            body: formData,
+          });
 
-        const data = await response.json();
+          const data = await response.json();
 
-        if (response.ok) {
+          if (response.ok) {
             alert("Success! Your message has been sent.");
             form.reset();
-        } else {
+          } else {
             alert("Error: " + data.message);
+          }
+        } catch (error) {
+          alert("Something went wrong. Please try again.");
+        } finally {
+          submitBtn.textContent = originalText;
+          submitBtn.disabled = false;
         }
-
-    } catch (error) {
-        alert("Something went wrong. Please try again.");
-    } finally {
-        submitBtn.textContent = originalText;
-        submitBtn.disabled = false;
-    }
-}); 
-
-
+      });
     </script>
-</body>
-
+  </body>
 </html>
